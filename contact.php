@@ -1,17 +1,15 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="contact, seo, google, site web, site internet, agence webdesign Lyon">
     <meta name="description" content="La Panthère est une entreprise de weddesign à Lyon qui accompage les entreprises à devenir attractives grâce à un site Internet d'excellente qualité">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="robots" content="index, follow">
 	<link rel="shortcut icon" type="image/png" href="./img/favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 	
     <title>contact La Panthère entreprise webdesign Lyon</title> 
 
@@ -46,9 +44,6 @@
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-						<a href="contact.php">Contact</a>
 					</li>
 				</ul>
 			</div>
