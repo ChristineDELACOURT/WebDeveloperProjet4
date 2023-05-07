@@ -5,7 +5,7 @@
     <meta name="description" content="La Panthère est une entreprise de weddesign à Lyon qui accompage les entreprises à devenir attractives grâce à un site Internet d'excellente qualité">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="robots" content="index, follow">
-	<link rel="shortcut icon" type="image/png" href="./img/favicon.jpg">
+	<link rel="shortcut icon" type="image/png" href="./img/favicon.webp">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
@@ -69,12 +69,12 @@
 	</div>
 </div>
 <!-- bloc-6 END -->
-<?php
+<!--<?php
 $nom  = $_POST['name'];
 $email  = $_POST['email'];
 $origine  = $_POST['origine'];
 $message  = $_POST['message'];
-?>
+?>-->
 <!-- bloc-7 -->
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
@@ -97,7 +97,7 @@ $message  = $_POST['message'];
 						<label>
 							Comment nous avez-vous connus ?
 						</label>
-						<input id="origine" name="origine" class="form-control" type="email" required  />
+						<textarea id="origine" name="origine" class="form-control" required></textarea>
 					</div>
 					<div class="form-group">
 						<label>
@@ -105,7 +105,7 @@ $message  = $_POST['message'];
 						</label>
 						<textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div>
-					<?php 
+<!--					<?php 
 					if (isset($_POST['soumettre'])) {
 						$name = $_POST['name'];
 						$email = $_POST['email'];
@@ -124,7 +124,7 @@ $message  = $_POST['message'];
 						header('Location: priseencompte.php');
 						echo 'Message pris en compte';
 						}
-						?>
+						?> -->
 					<input class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" name="soumettre" value="Envoyer">
 	<!--				<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
