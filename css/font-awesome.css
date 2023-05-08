@@ -140,6 +140,8 @@
 }
 
 .fa-rotate-90 {
+/* Erreur W3C ajout de la ligne suivante */
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -147,6 +149,8 @@
 }
 
 .fa-rotate-180 {
+    /* Erreur W3C ajout de la ligne suivante */
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -154,6 +158,8 @@
 }
 
 .fa-rotate-270 {
+/* Erreur W3C ajout de la ligne suivante */
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
@@ -161,6 +167,8 @@
 }
 
 .fa-flip-horizontal {
+    /* Erreur W3C ajout de la ligne suivante */
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
     -webkit-transform: scale(-1, 1);
     -ms-transform: scale(-1, 1);
@@ -168,6 +176,8 @@
 }
 
 .fa-flip-vertical {
+    /* Erreur W3C ajout de la ligne suivante */
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";   
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
     -webkit-transform: scale(1, -1);
     -ms-transform: scale(1, -1);

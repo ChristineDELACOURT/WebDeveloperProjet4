@@ -105,34 +105,13 @@ $message  = $_POST['message'];
 						</label>
 						<textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div>
-<!--					<?php 
-					if (isset($_POST['soumettre'])) {
-						$name = $_POST['name'];
-						$email = $_POST['email'];
-						$origine = $_POST['origine'];
-						$message = $_POST['message'];
-						$to = 'christine.delacourt@laposte.net'; // Email submissions are sent to this email
-						$email_subject = "Message du site web";
-						$email_body = "Vous avez reçu un nouveau message. \n\n".
-									  "Name: $name \nEmail: $email \nOrigine: $origine \nMessage: $message \n";
-						$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
-						$headers .= "From: christine.delacourt@laposte.net\n";
-						$headers .= "Reply-To: $email";	
-						
-						mail($to,$email_subject,$email_body,$headers); // Post message
-						return true;		
-						header('Location: priseencompte.php');
-						echo 'Message pris en compte';
-						}
-						?> -->
-					<input class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" name="soumettre" value="Envoyer">
-	<!--				<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
-					</button> -->
+					</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p>
+				<p class="tc-tangerine">
 					christine.delacourt@laposte.net<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>

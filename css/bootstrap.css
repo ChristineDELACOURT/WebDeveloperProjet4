@@ -156,8 +156,11 @@ button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
+/* Erreur W3C ajout de la ligne suivante */
+    appearance: button;
     -webkit-appearance: button;
-    cursor: pointer
+    cursor: pointer;
+/* Erreur W3C    cursor: pointer */
 }
 
 button[disabled],
@@ -192,7 +195,10 @@ input[type=search] {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    -webkit-appearance: textfield
+    /* Erreur W3C    ajout de la ligne suivante */
+    appearance: textfield;
+/* Erreur W3C    -webkit-appearance: textfield */
+    -webkit-appearance: textfield;
 }
 
 input[type=search]::-webkit-search-cancel-button,
@@ -3192,6 +3198,8 @@ textarea.form-control {
 }
 
 input[type=search] {
+    /* Erreur W3C    ajout de la ligne suivante */
+    appearance: textfield;
     -webkit-appearance: none
 }
 
@@ -7056,6 +7064,8 @@ button.list-group-item-danger.active:hover {
 }
 
 button.close {
+/* Erreur W3C ajout de la ligne suivante : */
+    appearance:none;
     -webkit-appearance: none;
     padding: 0;
     cursor: pointer;
@@ -7682,7 +7692,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+/* Erreur W3C    background-color: #000\9; */
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
