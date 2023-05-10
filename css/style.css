@@ -683,12 +683,12 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
     /* Correction CD debut 
-    max-width: 600px;*/
-    max-width: 1200px;
-/* Correction CD debut */
-    margin: auto auto auto auto;
+    max-width: 600px;
+    margin: auto auto auto auto;*/  
+    width:1200px;
+    margin:auto;
+/* Correction CD fin */
 }
 
 .h1 {
