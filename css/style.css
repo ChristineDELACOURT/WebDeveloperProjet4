@@ -5,6 +5,9 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /* Correction CD debut */
+    font-size:16px;
+    /* Correction CD fin */
 }
 
 a,
@@ -31,7 +34,10 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+/* Correction CD debut 
+    padding: 0 50px;*/
+    padding: 0;
+    /* Correction CD fin */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -57,6 +63,14 @@ a:hover {
 }
 .logo-w3c-css{
     left:0;
+}
+.logocss{
+    border:0;
+    width:88px;
+    height:31px;  
+}
+.image-resize-mode{
+    width: 100px;
 }
 .bg-center,
 .bg-l-edge,
@@ -93,6 +107,9 @@ a:hover {
 }
 
 .texture-paper::before {
+    /* correction CD debut */
+    content: "";
+    /* correction CD fin */
     background: url("../img/texture-paper.webp");
     background-size: 280px 280px;
 }
@@ -655,7 +672,9 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+label{
+    font-size:20px;
+}
 .container {
     max-width: 1000px;
 }
@@ -679,19 +698,22 @@ a {
 }
 
 p {
-    font-size: 11px;
+    /* Correction CD debut 
+    font-size: 11px; */
+    font-size: 20px;
+    /* Correction CD fin */    
 }
 
 .tight-width-whitespace {
     /* Correction CD debut 
     max-width: 600px;
     margin: auto auto auto auto;*/  
-    width:1200px;
+    max-width:1200px;
     margin:auto;
-/* Correction CD fin */
+    /* Correction CD fin */
 }
 
-.h1 {
+h1 {
     font-size: 20px;
     font-family: "Open Sans";
 }
@@ -716,7 +738,10 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    /* Correction CD debut 
+    font-size: 15px;*/
+    font-size: 19px;
+     /* Correction CD debut */
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -781,9 +806,11 @@ h4 {
 }
 
 .tc-white {
+    color: white!important;
+}
+.tc-tangerine {
     color: #F3976C!important;
 }
-
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;

@@ -11,11 +11,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jquery.touchSwipe.min.js" defer></script>
-	<script src="./js/gmaps.min.js"></script>
+	<script defer src="./js/jquery-2.1.0.min.js"></script>
+	<script defer src="./js/bootstrap.min.js"></script>
+	<script defer src="./js/blocs.min.js"></script>
+	<script defer src="./js/jquery.touchSwipe.min.js" defer></script>
+	<script defer src="./js/gmaps.min.js"></script>
 
     <title>accueil La Panthère entreprise webdesign Lyon</title>
 
@@ -37,7 +37,7 @@
  
 <header class="bloc bgc-white l-bloc ">
 	<a class="navbar-brand logo-w3c-css" href="http://jigsaw.w3.org/css-validator/check/referer">
-		<img style="border:0;width:88px;height:31px"
+		<img class="logocss" 
 			src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
 			alt="CSS Valide !" /> </a> 
 	<div class="container bloc-sm">
@@ -46,7 +46,8 @@
 				
 				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" loading="lazy" alt="logo la panthère entreprise webdesigne Lyon" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
+					<span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -65,17 +66,16 @@
 
 <!-- bloc-1-presentation -->
 	
-<section class="bloc bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax">
+<!--CD Suppression des class bg-t-edge et texture-paper 
+	 <section class="bloc bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"> -->
+	<section class="bloc bg-banniere d-bloc bloc-bg-texture b-parallax">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.webp" class="center-block image-resize-mode" loading="lazy" width="100" alt="logo la panthère entreprise webdesigne Lyon" />
-				<h1 class="text-center hero-bloc-text tc-tangerine ">
+				<img src="img/logo.webp" class="center-block image-resize-mode" loading="lazy" width="100" alt="logo la panthère entreprise webdesigne Lyon"/>
+				<h1 class="text-center hero-bloc-text tc-white">
 					Agence La Panthère<br>Entreprise webdesign Lyon
 				</h1>
-				<div class="text-center">
-					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -92,7 +92,7 @@
 		<div class="row voffset-lg med-width-whitespace">
 			<div class="col-sm-4">
 				<div class="text-center">
-					<img class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg" src="img/webdesign.webp" loading="lazy">
+					<img class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg" src="img/webdesign.webp" loading="lazy" alt="icone webdesign">
 				</div>
 				<h3 class="mg-md text-center">
 					Web design
@@ -103,7 +103,7 @@
 			</div>
 			<div class="col-sm-4">
 				<div class="text-center">
-					<img class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg" src="img/strategie.webp" loading="lazy">
+					<img class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg" src="img/strategie.webp" loading="lazy" alt="icone stratégie">
 				</div>
 				<h3 class="mg-md text-center">
 					&nbsp;Stratégie
@@ -114,7 +114,7 @@
 			</div>
 			<div class="col-sm-4">
 				<div class="text-center">
-					<img class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg" src="img/illustrations.webp" loading="lazy">
+					<img class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg" src="img/illustrations.webp" loading="lazy" alt="icone illustrations">
 				</div>
 				<h3 class="mg-md text-center">
 					Illustrations
@@ -145,7 +145,7 @@
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h2>
 				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locales, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beaux et bien structurés, qui seront facilement trouvables sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locales, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beaux et bien structurés, qui seront facilement trouvables sur les moteurs de recherche. <br><br><br>
 				</p>
 			</div>
 		</div>
@@ -155,7 +155,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h2 class="mg-md text-center tc-white">
+				<h2 class="mg-md text-center tc-tangerine">
 					Nous travaillons avec beaucoup de clients,<br>voici nos réalisations.<br>
 				</h2>
 			</div>
@@ -202,15 +202,13 @@
 		</div>
 	</div>
 </section><!-- bloc-4-portfolio -->
-<section id="bloc-5-cta" class="bloc d-bloc bloc-bg-texture bg-banniere texture-paper">
+<!--  CD Suppression de la class texture-paper -->
+	<section id="bloc-5-cta" class="bloc d-bloc bloc-bg-texture bg-banniere">
 	<div class="container bloc-lg">
 		<div class="row">
-			<h2 class="mg-md text-center white">
+			<h2 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contatez notre équipe !
 			</h2>
-			<div class="col-sm-12 text-center">
-				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
-			</div>
 		</div>
 	</div>
 </section><!-- bloc-5-cta -->
@@ -221,6 +219,7 @@
 				<p class="text-center white">
 					Agence La Panthère - Agence web basée à Lyon.<br>
 				</p>
+				
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
@@ -243,6 +242,16 @@
 						</div>
 					</div>
 				</div> <!-- row row-no-gutters social -->
+				<div class="row">
+					<div class="col-sm-4">
+							Partenaires
+								<ul>
+									<li><a href="https://www.ammi77.fr/">Ammi informatique vente réparation hardware et software de tout matériel informatique</a></li>
+									<li><a href="https://www.ibm.com/fr-fr">IBM - France fournisseur de nos matériels et logiciels</a></li>
+									<li><a href="https://openclassrooms.com/fr">OpenClassrooms école 100% en ligne où sont formés nos webdesigners</a></li>
+								</ul>		
+						</div>
+					</div>
 			</div>
 		</div>
 	</div>
