@@ -74,6 +74,11 @@ a:hover {
 .image-resize-mode{
     width: 100px;
 }
+/* Correction CD debut */
+.img-responsive{
+    width: 100%;
+}
+/* Correction CD fin */
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -297,13 +302,11 @@ a:hover {
     margin-right: 0;
     margin-left: 0;
 }
-
 .row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row.row-no-gutters > [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
 }
-
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -672,7 +675,10 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
+/* Correction CD debut 
     color: #575757!important;
+ Correction CD fin */
+    color:black;
 }
 label{
     font-size:20px;
@@ -717,7 +723,9 @@ p {
 
 h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+        /* Correction CD debut 
+    font-family: "Open Sans"; */
+        /* Correction CD fin */
 }
 
 .cta-hero {
@@ -813,6 +821,11 @@ h4 {
 .tc-tangerine {
     color: #F3976C!important;
 }
+/* Correction CD debut */
+.tc-black {
+    color: black!important;
+}
+/* Correction CD fin */
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
