@@ -150,7 +150,9 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
+/* Correction CD debut */
 .d-bloc a .icon-md,
+/* Correction CD fin */
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -167,7 +169,10 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
+/* Correction CD debut
+.d-bloc a:hover .icon-md,*/
+.d-bloc a .icon-md,
+/* Correction CD fin */
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -179,7 +184,11 @@ a:hover {
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
-
+/* Correction CD debut*/
+.d-bloc a:hover .icon-md{
+color: #c27956;
+}
+/* Correction CD fin */
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -314,7 +323,7 @@ a:hover {
     display: inline-block;
 }
 .row-no-gutters .col-sm-4{
-    width: 100%;
+    width: 32%;
     display: inline-block;
 }
 /* Correction CD fin */  
