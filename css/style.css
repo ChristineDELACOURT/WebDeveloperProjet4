@@ -11,10 +11,10 @@ body {
 }
 /* Correction CD debut */
 .col-sm-12 h1{
-    background:none; 
+    background-color:none; 
 }
 .col-sm-12 p{
-    background:none; 
+    background-color:none; 
 }
  /* Correction CD fin */
 .plan{
