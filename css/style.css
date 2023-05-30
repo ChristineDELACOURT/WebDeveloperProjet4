@@ -12,6 +12,12 @@ body {
 .plan{
     width:100%;
 }
+/* Correction CD debut */
+blockquote{
+    font-weight:bold;
+    border-left: 5px solid #000;
+}
+/* Correction CD fin */
 a,
 button {
     transition: all .3s ease-in-out;
@@ -580,7 +586,10 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    /* Correction CD debut 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial; */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* Correction CD debut */
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -691,7 +700,10 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    /* Correction CD debut 
+    font-family: "helvetica";*/
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+/*  Correction CD fin */
     font-weight: 400;
 /* Correction CD debut 
     color: #575757!important;
