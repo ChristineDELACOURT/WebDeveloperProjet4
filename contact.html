@@ -82,28 +82,28 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" name="name" placeholder="Dupont" class="form-control" value="" required aria-label="champ du formualire pour renseigner le nom">
+						<input id="name" name="name" placeholder="Dupont" class="form-control" value="" required>
 					</div>
 					<div class="form-group">
-						<label>
+						<label  for="email">
 							Adresse email
 						</label>
-						<input id="email" name="email" placeholder="jean.dupont@site.org" class="form-control" type="email" required value="" pattern="[a-zA-Z0-9\-\._]*@[a-zA-Z0-9\-\._]*.[a-zA-Z]*" aria-label="champ du formualire pour renseigner l email">
+						<input id="email" name="email" placeholder="jean.dupont@site.org" class="form-control" type="email" required value="" pattern="[a-zA-Z0-9\-\._]*@[a-zA-Z0-9\-\._]*.[a-zA-Z]*">
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="origine">
 							Comment nous avez-vous connus ?
 						</label>
-						<textarea id="origine" name="origine" class="form-control" required aria-label="champ du formualire pour dire comment vous nous avez connus"></textarea>
+						<textarea id="origine" name="origine" class="form-control" required></textarea>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
-						<textarea id="message" name="message" class="form-control" rows="4" cols="50" aria-label="champ du formualire pour donner des détails de votre projet" required></textarea>
+						<textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div>
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
