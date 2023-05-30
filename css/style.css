@@ -858,8 +858,11 @@ h4 {
 }
 /* Correction CD fin */
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #F3976C;   
+    /* Correction CD debut 
+    color: #FFFFFF!important;*/
+    color: black!important;
+    /* Correction CD fin */
 }
 
 .btn-atomic-tangerine:hover {
