@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    /* Correction CD debut */
+    /*background: #FFF;*/
+    /* Correction CD fin */
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -9,14 +11,7 @@ body {
     font-size:16px;
     /* Correction CD fin */
 }
-/* Correction CD debut */
-h1{
-    background-color:none; 
-}
-p{
-    background-color:none; 
-}
- /* Correction CD fin */
+
 .plan{
     width:100%;
 }
