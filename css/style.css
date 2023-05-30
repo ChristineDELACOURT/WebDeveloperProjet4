@@ -881,7 +881,14 @@ h4 {
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
 }
-
+/* Correction CD debut */
+.dark-tangerine {
+    color: #c27956!important;
+}
+.dark-tangerine:hover {
+    color: #F3976C!important;
+}
+/* Correction CD fin */
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
