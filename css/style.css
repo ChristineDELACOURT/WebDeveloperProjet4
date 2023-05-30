@@ -9,10 +9,14 @@ body {
     font-size:16px;
     /* Correction CD fin */
 }
-
-.col-sm-12 {
-    background:transparent; 
+/* Correction CD debut */
+.col-sm-12 h1{
+    background:none; 
 }
+.col-sm-12 p{
+    background:none; 
+}
+ /* Correction CD fin */
 .plan{
     width:100%;
 }
