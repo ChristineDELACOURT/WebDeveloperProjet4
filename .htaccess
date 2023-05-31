@@ -1,5 +1,5 @@
 # MOD_DEFLATE COMPRESSION
-SetOutputFilter DEFLATE
+<Directory "/https://christinedelacourt.github.io/panthere-entreprise-webdesign-Lyon">
 AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
 #Pour les navigateurs incompatibles
 BrowserMatch ^Mozilla/4 gzip-only-text/html
@@ -10,7 +10,7 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
 #les proxies doivent donner le bon contenu
 Header append Vary User-Agent env=!dont-vary
-
+</Directory>
 RewriteEngine On
 
 	## no-www -> www
