@@ -1,5 +1,6 @@
 # GZIP Apache 2.0
 # BEGIN GZIP
+<IfModule mod_deflate.c>
 SetOutputFilter DEFLATE
 AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
 
@@ -7,6 +8,7 @@ BrowserMatch ^Mozilla/4 gzip-only-text/html
 BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+</IfModule>
 # END GZIP
 
 # BEGIN Redirection 301
@@ -16,10 +18,9 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 # CACHE NAVIGATEUR
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
- <FilesMatch "\.(ico|js|eot|otf|ttf|woff|woff2|svg|webp|html|css|php|gz)$">
- Header set Cache-Control "max-age=2592000, public"
- Header unset Set-Cookie
- </FilesMatch>
+<FilesMatch "\.(ico|js|eot|otf|ttf|woff|woff2|svg|webp|html|css|php|gz)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
 </IfModule>
 # END Cache-Control Headers
 
