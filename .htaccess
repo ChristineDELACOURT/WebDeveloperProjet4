@@ -2,12 +2,12 @@
 <IfModule mod_headers.c>
 AddType 'text/html; charset=UTF-8' html
 AddType image/svg+xml svg
-AddType font/ttf .ttf
-AddType font/eot .eot
-AddType font/otf .otf
-AddType font/woff .woff
-AddType font/woff2 .woff2   
-<FilesMatch "\.(ico|eot|otf|ttf|woff|woff2|css|gz)$">
+AddType font/ttf ttf
+AddType font/eot eot
+AddType font/otf otf
+AddType font/woff woff
+AddType font/woff2 woff2   
+<FilesMatch "\.(ico|eot|otf|svg|ttf|woff|woff2|css|gz)$">
 Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
 <FilesMatch "\.(js)$">
