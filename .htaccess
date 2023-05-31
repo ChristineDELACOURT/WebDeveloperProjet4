@@ -10,21 +10,21 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 # END GZIP
 
 # BEGIN Redirection 301
-RewriteCond %{HTTP_HOST} ^(.\*)$ https://christinedelacourt.github.io/$1 [L,R=301]
+# RewriteCond %{HTTP_HOST} ^(.\*)$ https://christinedelacourt.github.io/$1 [L,R=301]
 # END Redirection 301
 
 # CACHE NAVIGATEUR
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
- <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+ <FilesMatch "\.(ico|jpe?g|png|gif|svg|webp|swf|css|gz)$">
  Header set Cache-Control "max-age=2592000, public"
  </FilesMatch>
  <FilesMatch "\.(js)$">
  Header set Cache-Control "max-age=2592000, private"
  </FilesMatch>
-<filesMatch "\.(html|htm)$">
+<FilesMatch "\.(html|htm)$">
 Header set Cache-Control "max-age=7200, public"
-</filesMatch>
+</FilesMatch>
 # Enleve le cache pour les ressources dynamiques
 <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
 Header unset Cache-Control
