@@ -1,2 +1,8 @@
 User-agent: *
-Allow: /
+Disallow: /includes/
+Disallow: /img/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /js/
+
+sitemap: htpp://github.com/ChristineDELACOURT/panthere-entreprise-webdesign-Lyon/sitemap.xml
