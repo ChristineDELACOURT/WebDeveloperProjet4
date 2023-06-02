@@ -91,9 +91,7 @@ a:hover {
     background-size: 100%!important;
 }
 .icon-lg {
-    font-size: 60px!important;
-    margin-left: 0;
-    margin-right: 0;
+    height: 60px!important;
 }
 /* Correction CD fin */
 
