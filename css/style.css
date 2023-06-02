@@ -92,6 +92,8 @@ a:hover {
 }
 .icon-lg {
     font-size: 60px!important;
+    margin-left: 0;
+    margin-right: 0;
 }
 /* Correction CD fin */
 
