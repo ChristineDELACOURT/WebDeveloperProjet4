@@ -33,12 +33,39 @@ button {
     text-decoration:underline;
     /* Correction CD fin */
 }
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+/* Correction CD debut */
+input,textarea {
+    font-weight: 900;
+    background: #FDDBCB;
+    color:black;
+    }
+input:focus,textarea:focus{
+    border: 5px solid #F3976C;
+}
+@keyframes non {
+    25% {
+        transform: translateX(3%);
+        background:  #e3002b;
+    }
+    75% {
+        transform: translateX(-3%);
+        background:  #e3002b;
+    }
+}
+input:not(:focus):invalid,textarea:not(:focus):invalid {
+    content: "";
+    background:  #FDDBCB;
+    animation: non 200ms cubic-bezier(.4,.1,.6,.9) 2;
+}
+input:active,textarea:active{
+    border: 10px solid #F3976C;
+}
+/* Correction CD fin */
+/* Correction CD debut
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -47,7 +74,7 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
-
+Correction CD fin */
 .bloc {
     width: 100%;
     clear: both;
