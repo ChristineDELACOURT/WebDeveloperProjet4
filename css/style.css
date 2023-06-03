@@ -29,6 +29,9 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    /* Correction CD debut */
+    text-decoration:underline;
+    /* Correction CD fin */
 }
 
 a:hover {
@@ -80,21 +83,6 @@ a:hover {
     width: 100px;
     height: 100px;
 }
-/* Correction CD debut */
-.img-responsive{
-    width: 100%;
-}
-.bg-t-edge{
-    -webkit-background-size: 100%!important;
-    -moz-background-size: 100%!important;
-    -o-background-size: 100%!important;
-    background-size: 100%!important;
-}
-.icon-lg {
-    height: 60px!important;
-}
-/* Correction CD fin */
-
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
