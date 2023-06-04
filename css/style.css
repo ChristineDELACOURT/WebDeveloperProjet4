@@ -2,7 +2,9 @@
 body {
     margin: 0;
     padding: 0;
+    /* Correction CD debut
     background:#FFF;
+    Correction CD fin */    
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -11,22 +13,11 @@ body {
     /* Correction CD fin */
 }
 /* Correction CD debut */
-h1{
-    margin-left:auto;
-    margin-right:auto;
-    background: #c27956;
-    border-radius: 7px;
-}
 .marron{
     color:#522713;
 }
 .noir{
     color:#000000;
-}
-.col-sm-12{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
 }
 /* Correction CD fin */
 .plan{
