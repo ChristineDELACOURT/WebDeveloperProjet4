@@ -1,4 +1,4 @@
-/* Correction CD fin */
+/* Correction CD fin */hover
 body {
     margin: 0;
     padding: 0;
@@ -11,9 +11,23 @@ body {
     /* Correction CD fin */
 }
 /* Correction CD debut */
-h1,
-h2{
-    color:white;   
+h1{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #364577;
+    border-radius:7px;
+    background: url("../img/texture-paper.webp");
+}
+.marron{
+    color:#522713;
+}
+.noir{
+    color:#000000;
+}
+.col-sm-12{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 /* Correction CD fin */
 .plan{
