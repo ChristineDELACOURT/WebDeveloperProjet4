@@ -381,7 +381,8 @@ color: #c27956;
     display: inline-block;
 }
 .col-sm-4 img{
-    height: 60px;
+    padding-left: 0;
+    padding-right: 0;
 }
 /* Correction CD fin */  
 #bloc-1-hero h1 {
