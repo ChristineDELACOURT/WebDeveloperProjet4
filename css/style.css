@@ -14,9 +14,7 @@ body {
 h1{
     margin-left:auto;
     margin-right:auto;
-    background-color: #364577;
-    border-radius:7px;
-    background: url("../img/texture-paper.webp");
+    background: #c27956;
 }
 .marron{
     color:#522713;
