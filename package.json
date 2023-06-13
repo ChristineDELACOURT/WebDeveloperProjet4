@@ -1,0 +1,20 @@
+{
+  "name": "panthere",
+  "version": "1.0.0",
+  "description": "Entreprise web design",
+  "main": "index.js",
+  "scripts": {
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+      },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristineDELACOURT/panthere-entreprise-webdesign-Lyon"
+  },
+  "author": "ChristineDELACOURT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristineDELACOURT/panthere-entreprise-webdesign-Lyon/issues"
+  },
+  "browserslist": "last 4 versions",
+  "homepage": "https://github.com/ChristineDELACOURT/panthere-entreprise-webdesign-Lyon#readme"
+}
